@@ -13,6 +13,7 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials;
+};
 	return tutorials.map((tutorial) => {
 		return tutorial
 			.split(" ")
@@ -21,5 +22,4 @@ const titleCased = () => {
 			})
 			.join(" ");
 	});
-};
 
